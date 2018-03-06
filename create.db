@@ -1,0 +1,10 @@
+
+CREATE DATABASE wordpress;
+
+CREATE USER 'wordpress'@'localhost'
+  IDENTIFIED BY '_Wordpress2018'
+  PASSWORD EXPIRE INTERVAL 180 DAY;
+
+GRANT ALL ON wordpress.* TO 'wordpress'@'localhost';
+
+FLUSH PRIVILEGES;

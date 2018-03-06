@@ -1,0 +1,4 @@
+UPDATE mysql.user SET authentication_string = PASSWORD('_Wordpress2018')
+WHERE User = 'root' AND Host = 'localhost';
+FLUSH PRIVILEGES;
+quit

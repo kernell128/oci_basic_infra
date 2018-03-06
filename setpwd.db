@@ -1,0 +1,2 @@
+ALTER USER 'root'@'localhost' IDENTIFIED BY '_Wordpress2018';
+quit
